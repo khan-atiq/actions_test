@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v2    #can provide commithash, tags, branch
       - name: hello world
         run: echo "hey Hello, hi , namaste, welcome to your 1st workflow"
+        run: echo "hey HIIII, Hello, welcome to your 1st workflow"
         shell: bash
 
   goodbye:
